@@ -36,6 +36,15 @@ const Team = () => {
       image: "images/Muzammil.jpg",
       social: "https://www.linkedin.com/in/mohammed-muzammil-pasha-495413232/",
     },
+
+    {
+      name: "Rohit",
+      role: "Vice President Operations",
+      image: "images/Rohit.jpg",
+      social:
+        "https://www.linkedin.com/in/rohit-chandra-05721626b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+
     {
       name: "Kankati Pragnya",
       role: "CS Social media head",
@@ -71,13 +80,7 @@ const Team = () => {
       social:
         "hhttps://www.linkedin.com/in/kanduri-shruthi-80910b2a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
-    {
-      name: "Rohit",
-      role: "Event Coordinator",
-      image: "images/Rohit.jpg",
-      social:
-        "https://www.linkedin.com/in/rohit-chandra-05721626b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    },
+
     {
       name: "Sanjana",
       role: "Marketing Head",

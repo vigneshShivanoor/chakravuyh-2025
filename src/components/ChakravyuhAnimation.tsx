@@ -1,11 +1,11 @@
-import React from 'react';
-import { Sword } from 'lucide-react';
+import React from "react";
+import { Sword } from "lucide-react";
 
 const ChakravyuhAnimation = () => {
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
       {/* Rotating Chakra Formation */}
-      <div className="absolute inset-0 animate-spin-slow">
+      {/* <div className="absolute inset-0 animate-spin-slow">
         {[...Array(7)].map((_, i) => (
           <div
             key={i}
@@ -16,7 +16,7 @@ const ChakravyuhAnimation = () => {
             }}
           />
         ))}
-      </div>
+      </div> */}
 
       {/* Decorative Swords */}
       <div className="absolute inset-0">
@@ -28,7 +28,7 @@ const ChakravyuhAnimation = () => {
               transform: `rotate(${i * 45}deg) translateY(-50vh)`,
             }}
           >
-            <Sword 
+            <Sword
               className="w-8 h-8 text-saffron/30 transform -rotate-45"
               style={{
                 animation: `war-drums ${2 + i * 0.2}s ease-in-out infinite`,
